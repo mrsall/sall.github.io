@@ -1,0 +1,276 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: cursive;
+	text-decoration: none;
+}
+.nav1{
+	width: 100%;
+	background-color: crimson;
+	position: relative;
+	padding: 25px 0px;
+}
+.nav1 .max-width{
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+.logo a{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 400px;
+}
+.logo a span{
+	color: #000;
+}
+.menu{
+	padding-top: 10px;
+}
+.menu li{
+	display: inline-block; 
+}
+.menu li a{
+	color: white;
+	font-size:20px;
+	font-weight: 200px;
+	margin-left: 25px;
+	transition: color 1s;
+}
+.menu li a:hover{
+	color: black;
+}
+/**************************************************/
+
+.home{
+	height: 800px;
+	background: url('home2.jpg');
+	display: flex;
+}
+.home .max-width{
+	margin: auto 120px;
+	color: white;
+}
+.home .max-width .text1{
+	font-size: 40px;
+	font-weight: 600;
+}
+.home .max-width .text2{
+	color: crimson;
+	font-size: 60px;
+	font-weight: 600;
+}
+.home .max-width .text3{
+	font-size: 50px;
+	font-weight: 700;
+
+}
+.home .max-width .text3 span{
+	color: crimson;
+}
+.home .max-width a{
+	display: inline-block;
+	color: white;
+	background-color: crimson;
+	font-size: 40px
+	font-weight: 200;
+	border: 2px solid crimson;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin-top: 20px;
+}
+.home .max-width a:hover{
+	background: none;
+}
+/*************************************/
+
+.about{
+	padding: 50px 150px;
+}
+.about .title{
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: underline crimson;
+}
+.about .about-content{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+.about .div-left{
+	width: 45%
+}
+.about .div-right{
+	width: 55%;
+}
+.about .div-left img{
+	height: 400px;
+	width: 400px;
+	border-radius: 6px;
+	object-fit: cover;
+}
+.about .div-right .text{
+	font-weight: 600;
+	font-size:35px;
+}
+.about .div-right .text span{
+	color: crimson;
+}
+.about .div-right p{
+	text-align: justify;
+	font-size: 20px;
+}
+.about .div-right a{
+	display: inline-block;
+	color: white;
+	background-color: crimson;
+	font-size: 40px;
+	font-weight: 200;
+	border: 2px solid crimson;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin-top: 20px;
+}
+.about .div-right a:hover{
+	background: none;
+	color: #000000;
+	transition: color 0.5s;
+}
+/********************************************************************************************/
+.team h2{
+	margin-top: 50px;
+	text-align: center;
+	font-family: serif;
+}
+.team .p2{
+	text-align: center;
+	margin-top: 5px;
+	color: crimson;
+	position: relative;
+	font-size: 20px
+}
+.team .p2:before{
+	content: "";
+	display: block;
+	width: 80px;
+	height: 4px;
+	background: #000;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	z-index: -2;
+	margin-left: 620px;
+}
+.team .p2:after{
+	content: "";
+	display: block;
+	width: 80px;
+	height: 4px;
+	background: #000;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	z-index: -2;
+	margin-right: 620px;
+}
+.navv{
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+}
+.membre{
+	background: #454343;
+	margin: 5px;
+	margin-bottom: 50px;
+	width: 300px;
+	padding: 20px;
+	color: white;
+	line-height: 30px;
+	position: relative;
+	padding-top: : 20px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 5px;
+	border-color:crimson;
+}
+.membre h2{
+	font-size: 26px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	color: crimson;
+}
+.membre .image img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+	border-color: crimson;
+	border-style: solid ;
+	border-width: 5px;
+}
+/**********************************************************************/
+.pied{
+	display: flex;
+	margin-left: 200px;
+}
+.pied .mess{
+	width: 50%;
+	margin-right: 100px;
+	line-height: 30px;
+}
+.pied .mess h2{
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.form h2{
+	margin-bottom: 15px;
+	font-size: 30px;
+}
+.form input{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 80px;
+}
+.form textarea{
+	margin-bottom: 10px;
+}
+.form a{
+	text-transform: uppercase; 
+	display: inline-block;
+	color: white;
+	background-color: crimson;
+	font-size: 20px;
+	font-weight: 200;
+	border: 2px solid crimson;
+	border-radius: 10px;
+}
+.form a:hover{
+	background: none;
+	color: crimson;
+	transition: color 0.5s;
+}
+.pied .mess a{
+	margin-right: 5px;
+}
+.pied .mess span{
+	margin: 35px;
+}
+/***********************************/
+.barpied{
+	border-style: solid;
+	background: #000000;
+	margin-top: 40px;
+}
+.bar p{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	margin: 10px 10px 10px 10px;
+	font-family: serif;
+}
+.bar span{
+	color: crimson;
+}
